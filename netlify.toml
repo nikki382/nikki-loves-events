@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "http://nikkilovesevents.ca/*"
+  to = "https://nikkilovesevents.ca/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.nikkilovesevents.ca/*"
+  to = "https://www.nikkilovesevents.ca/:splat"
+  status = 301
+  force = true
