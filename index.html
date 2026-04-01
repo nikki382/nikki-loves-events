@@ -293,9 +293,11 @@
 <span class="section-tag">✦ Get In Touch</span>
 <h2 class="section-title">Let's Plan Something<br/><em>Extraordinary</em></h2>
 <p>Ready to bring your event vision to life? Tell us about your dream event and we'll be in touch within 24 hours.</p>
-<form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-<input type="hidden" name="form-name" value="contact"/>
-<p style="display:none"><input name="bot-field"/></p>
+<form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="478f7273-5814-4d10-9df5-7393be72579a"/>
+  <input type="hidden" name="subject" value="New Enquiry – Nikki Loves Events"/>
+  <input type="hidden" name="from_name" value="Nikki Loves Events Website"/>
+  <input type="hidden" name="redirect" value="https://nikkilovesevents.ca"/>
 <div class="form-row">
 <input class="form-input" name="name" placeholder="Your Name" required="" type="text"/>
 <input class="form-input" name="email" placeholder="Your Email" required="" type="email"/>
